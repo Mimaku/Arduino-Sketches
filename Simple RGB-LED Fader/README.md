@@ -12,11 +12,11 @@ This is a simple RGB-LED fader sketch. You can't crossfade from one color into a
   
 ## Function
   
+```c
 // RGB-LED fader function  
-// variable fade-in-/fade-out-/on-/off-time in milliseconds for the specified color  
+// variable fade-in- / fade-out- / on- / off-time in milliseconds for the specified color  
 // use fadeInTime/fadeOutTime = 0 for (single) blink  
   
-```c
 void fadeLed(int fadeInTime, int onTime, int fadeOutTime, int offTime, byte color[3])  
 ``` 
   
