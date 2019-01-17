@@ -1,8 +1,8 @@
-#Simple RGB-LED Fader
+# Simple RGB-LED Fader
 
 This is a simple RGB-LED fader sketch. You can't crossfade from one color into another.
 
-##Requirements
+## Requirements
 
 1x Arduino Uno R3
 1x Breadboard
@@ -10,7 +10,7 @@ This is a simple RGB-LED fader sketch. You can't crossfade from one color into a
 3x 220Ohm Resistors
 4x Jumper Wire
 
-##Function
+## Function
 
 // RGB-LED fader function
 // variable Fade-In, Fade-Out, On-/Off-Time in milliseconds for the specified color
@@ -18,7 +18,7 @@ This is a simple RGB-LED fader sketch. You can't crossfade from one color into a
 
 void fadeLed(int fadeInTime, int onTime, int fadeOutTime, int offTime, byte color[3])
 
-##Usage
+## Usage
 
 // Specify your color as an array
 
@@ -32,6 +32,7 @@ void loop(){
   fadeLed(1000, 1000, 2000, 0, magenta);
 }
 
-##Note
+## Note
+
 Make sure you use your PWN-Enabled Output-Pins.
 This Sketch utilizes the pins 11, 10, 9 for red, green and blue cathodes of the RGB-LED.
