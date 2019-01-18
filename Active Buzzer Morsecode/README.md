@@ -1,7 +1,7 @@
 # Active Buzzer Morsecode
   
 This is a morsecode sketch utilizing an active buzzer.  
-Since fully functional, the code is rather ugly and messy. Furthermore there is room for optimization in the charToBeep().  
+Since functional, the code is rather ugly and messy. Furthermore there is room for optimization in the charToBeep().  
   
 ## Requirements
   
