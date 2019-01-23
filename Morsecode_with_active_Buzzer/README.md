@@ -11,6 +11,10 @@ Compared to the old version, this is a major rewrite. The code should be more re
 1x Potentiometer  
 6x Jumper Wire  
   
+## Diagram
+  
+![alt text](https://github.com/Mimaku/Arduino-Sketches/blob/master/Morsecode_with_active_Buzzer/Morsecode_with_active_Buzzer_Steckplatine.svg "Diagram / Breadboard layout")
+  
 ## Function
   
 ```c
